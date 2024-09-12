@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Combo } from "next/font/google";
+import { Fascinate_Inline } from "next/font/google";
 import "./globals.css";
 
 
 
-const comforter = Combo({ subsets: ["latin"],weight:"400" });
+const comforter = Fascinate_Inline({ subsets: ["latin"],weight:"400" });
 
 export const metadata: Metadata = {
   title: "Create Next App",
